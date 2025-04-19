@@ -1,0 +1,196 @@
+/* تنسيق عام */
+body {
+              font-family: 'Arial', sans-serif;
+              margin: 0;
+              padding: 0;
+              direction: rtl;
+              background-color: #f4f4f4;
+              color: #333;
+          }
+          
+          .container {
+              width: 80%;
+              margin: auto;
+              padding: 20px;
+          }
+          
+          /* ===================== */
+          /*        الهيدر         */
+          /* ===================== */
+          header {
+              background-color: #f8f4f4;
+              color: rgb(10, 10, 10);
+              text-align: center;
+              position: fixed;
+              width: 100%;
+          }
+          
+          header h1 {
+              margin: 0;
+              font-size: 25px;
+          }
+          
+          nav ul {
+              list-style: none;
+              padding: 0;
+              margin-top: 10px;
+          }
+          
+          nav ul li {
+              display: inline;
+              margin: 0 15px;
+          }
+          
+          nav ul li a {
+              color: rgb(0, 0, 0);
+              text-decoration: none;
+              font-weight: bold;
+              font-size: 18px;
+          }
+          
+          nav ul li a:hover {
+              text-decoration: underline;
+          }
+          
+          /* ===================== */
+          /*    القسم الرئيسي     */
+          /* ===================== */
+          .hero {
+              height: 60vh;
+              display: flex;
+              align-items: center;
+              text-align: center;
+              color: white;
+              padding: 80px 0;
+              background: url(021275300_1483339710-JP_Morgan_2.webp);
+              width: 100%;
+              background-size: cover;
+              background-attachment: fixed;
+              background-position: center;
+              min-height: 100vh;
+              
+              
+          }
+
+          
+          .hero h2 {
+              font-size: 36px;
+              margin-bottom: 10px;
+          }
+          
+          .hero p {
+              font-size: 20px;
+          }
+          
+          .hero .btn {
+              display: inline-block;
+              background: #252726;
+              color: white;
+              padding: 10px 20px;
+              margin-top: 15px;
+              font-size: 18px;
+              text-decoration: none;
+              border-radius: 5px;
+          }
+          
+          .hero .btn:hover {
+              background: #6e6d6c;
+          }
+          
+          /* ===================== */
+          /*      نموذج تسجيل     */
+          /* ===================== */
+          .register-section, .login-section, .services {
+              background: white;
+              padding: 50px 0;
+              text-align: center;
+          }
+          
+          form {
+              background: #f9f9f9;
+              padding: 20px;
+              border-radius: 10px;
+              width: 60%;
+              margin: auto;
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          }
+          
+          form input {
+              width: 100%;
+              padding: 10px;
+              margin: 10px 0;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+          }
+          
+          form button {
+              background: #008075;
+              color: white;
+              padding: 10px;
+              border: none;
+              cursor: pointer;
+              font-size: 18px;
+              border-radius: 5px;
+              width: 100%;
+          }
+          
+          form button:hover {
+              background: #00605b;
+          }
+          
+          /* ===================== */
+          /*      الخدمات         */
+          /* ===================== */
+          .services {
+              background: #f4f4f4;
+              padding: 50px 0;
+          }
+          
+          .service-card {
+              background: white;
+              padding: 20px;
+              margin: 15px;
+              display: inline-block;
+              width: 30%;
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+              border-radius: 5px;
+          }
+          
+          .service-card h3 {
+              color: #2e2444;
+          }
+          
+          /* ===================== */
+          /*       الفوتر        */
+          /* ===================== */
+          footer {
+              background-color: #212325;
+              color: white;
+              text-align: center;
+              padding: 20px;
+              margin-top: 20px;
+          }
+          service-card {
+              background-color: #f9f9f9;
+              padding: 15px;
+              border-radius: 10px;
+              box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+              transition: 0.3s;
+              cursor: pointer;
+          }
+          
+          .service-card:hover {
+              background-color: #e0f7fa;
+              transform: scale(1.05);
+          }
+          
+          .service-card.active {
+              border: 2px solid #007bff;
+              background-color: #d1ecf1;
+          }
+          
+          .service-details {
+              color: #007bff;
+              font-weight: bold;
+              margin-top: 10px;
+          }

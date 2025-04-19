@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JP Morgan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>بنكJpMorgan</h1>
+            <nav>
+                <ul>
+                    <li><a href="#index">الرئيسية</a></li>
+                    <li><a href="#services">الخدمات</a></li>
+                    <li><a href="#login">تسجيل الدخول</a></li>
+                    <li><a href="#register">إنشاء حساب</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero" id="index">
+        <div class="container">
+            <h2>مرحبا بك في بنكك</h2>
+            <p>نقدم لك أفضل الحلول المصرفية بأحدث التقنيات</p>
+            <a href="#services" class="btn">استكشاف الخدمات</a>
+        </div>
+    </section>
+    <section class="register-section" id="register">
+              <div class="container">
+                  <h2>إنشاء حساب جديد</h2>
+                  <form>
+                      <input type="text" name="fullname" placeholder="الاسم الكامل" required>
+                      <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+                      <input type="password" name="password" placeholder="كلمة المرور" required>
+                      <input type="password" name="confirm_password" placeholder="تأكيد كلمة المرور" required>
+                      <button type="submit" class="btn">إنشاء الحساب</button>
+                  </form>
+              </div>
+          </section>
+<!-- صفحة الخدمات -->
+    <section class="services" id="services" >
+        <div class="container">
+            <h2>خدماتنا المصرفية</h2>
+            <div class="service-card">
+                <h3>فتح حساب بنكي</h3>
+                <p>سهولة إنشاء حساب بنكي جديد وإدارته عبر الإنترنت.</p>
+            </div>
+            <div class="service-card">
+                <h3>القروض والتمويل</h3>
+                <p>خيارات تمويل وقروض ميسرة تناسب احتياجاتك.</p>
+            </div>
+            <div class="service-card">
+                <h3>تحويل الأموال</h3>
+                <p>تحويل الأموال بسهولة وأمان إلى أي مكان في العالم.</p>
+            </div>
+        </div>
+        <div class="service-card">
+              <h3>فتح حساب بنكي</h3>
+              <p>سهولة إنشاء حساب بنكي جديد وإدارته عبر الإنترنت.</p>
+          </div
+    </section>
+    <script src="script.js"></script>
+    <section class="login-section" id="login">
+              <div class="container">
+                  <h2>تسجيل الدخول</h2>
+                  <form>
+                      <div class="form-group">
+                          <label for="email">البريد الإلكتروني</label>
+                          <input type="email" id="email" name="email" required>
+                      </div>
+                      <div class="form-group">
+                          <label for="password">كلمة المرور</label>
+                          <input type="password" id="password" name="password" required>
+                      </div>
+                      <button type="submit" class="btn">تسجيل الدخول</button>
+                      <p>ليس لديك حساب؟ <a href="#register">إنشاء حساب جديد</a></p>
+                  </form>
+              </div>
+          </section>
+    <footer>
+              <div class="contact-info" id="contact">
+                            <h3>معلومات الاتصال</h3>
+                            <p><strong>الهاتف:</strong> 0123-456-789</p>
+                            <p><strong>البريد الإلكتروني:</strong> info@futurebank.com</p>
+                            <p><strong>العنوان:</strong>  شارع احمد نسيم - الدقى - الجيزة - مصر</p>
+                        </div>
+    </footer>
+</body>
+</html>
